@@ -30,3 +30,42 @@ Conclusion
 Git Bash et GitHub permettent de gérer des versions de code, collaborer efficacement et faciliter les workflows de développement.
 Maîtriser les commandes de base est essentiel pour tirer le meilleur parti de ces outils.
 
+Ayoub
+Voici un guide étape par étape pour utiliser Git depuis la console GIT
+
+1- Naviguer vers le dossier souhaité : cd chemin/vers/votre/dossier 
+2- Initialiser un nouveau dépôt Git (si inexistant) : git init 
+3- On va cloner un dépôt existant : git clone https://github.com/utilisateur/repo.git
+4- On vérifier la configuration du dépôt distant avec: git remote -v
+5- On va Créer et éditer un fichier texte : 
+        * touch nom_du_fichier.txt  # Créer un nouveau fichier
+        * nano  nom_du_fichier.txt  # Ouvrir le fichier dans l'éditeur nano
+        pour sortir de l'éditeur nano: Ctrl+O et Ctrl+X
+
+6- Ajouter des fichiers à la zone de staging : git add nom_du_fichier.txt
+7- On fait un commit avec un message descriptif : git commit -m "Description des modifications"
+8- Configurer le dépôt distant: git remote add origin https://github.com/utilisateur/repo.git
+9- Mettre à jour la branche principale avec la commande PUSH: git push origin main
+
+10- Aprés il nous demande pour mettre le USERNAME et PASSWORD de GITHUB qui'l est lien. Pour le MAC IOS il faut créer une TOKEN CLASSIC comme password sur setting.
+
+11- Si on veux récupérer les changements récents du dépôt distant on utilisent PULL: git pull origin main
+
+12- Création et gestion des branches :
+
+       *git branch nom_nouvelle_branche  # Créer une nouvelle branche
+       *git checkout nom_nouvelle_branche  # Basculer vers la nouvelle branche
+
+13- Pour fusionner les changements d'une branche vers une autre : C'est importante de nous assurer d'être sur la branche où nous voulons appliquer les changements.
+
+       *git checkout branche_cible
+       *git merge branche_source
+
+
+
+
+
+
+
+
+
