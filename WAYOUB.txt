@@ -1,1 +1,32 @@
+Git Bash et GitHub
+Git Bash : Une interface en ligne de commande pour utiliser Git sur Windows, simulant un environnement Unix.
+GitHub : Une plateforme en ligne permettant d'héberger des projets Git et de collaborer à plusieurs sur des dépôts de code.
+Git Bash – Principes de base
+Git Bash est un terminal permettant d'utiliser les commandes Git sous Windows.
+Il supporte les commandes Unix comme ls, pwd, et cd, ainsi que les commandes Git.
+GitHub – Principes de base
+Dépôt GitHub : Un espace où le code source et son historique sont stockés.
+Fonctionnalités de collaboration : Pull requests, issues, fork et merge.
+GitHub facilite le partage de projets et la gestion du code à plusieurs.
+Commandes basiques – Git Bash
+• git init : Initialise un nouveau dépôt Git dans un répertoire.
+• git status : Affiche l’état actuel du dépôt (modifications, fichiers suivis/non suivis).
+• git add . : Ajoute tous les fichiers modifiés à l’index (staging area).
+• git commit -m "message" : Crée un commit avec un message explicatif.
+Commandes basiques – GitHub
+• git remote add origin [URL] : Lie un dépôt local à un dépôt distant sur GitHub.
+• git push origin master : Envoie les modifications locales vers GitHub (branche master).
+• git pull origin master : Récupère les dernières modifications du dépôt GitHub vers le dépôt local.
+Commandes avancées – Git Bash et GitHub
+• git branch : Liste toutes les branches.
+• git checkout [branch] : Bascule vers une branche spécifique.
+• git merge [branch] : Fusionne une branche dans la branche actuelle.
+• git clone [URL] : Clone un dépôt GitHub sur votre machine.
+Fonctionnalités avancées de GitHub
+• Pull Requests (PR) : Propose des modifications pour un projet. Les autres contributeurs peuvent les réviser avant intégration.
+• Fork : Copie d’un dépôt pour apporter des modifications sans affecter l’original.
+• Issues : Outil de suivi des bugs et des suggestions d’amélioration.
+Conclusion
+Git Bash et GitHub permettent de gérer des versions de code, collaborer efficacement et faciliter les workflows de développement.
+Maîtriser les commandes de base est essentiel pour tirer le meilleur parti de ces outils.
 
