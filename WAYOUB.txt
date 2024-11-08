@@ -1,1 +1,17 @@
+Voici un guide étape par étape pour utiliser Git depuis la console GIT
+
+1- Naviguer vers le dossier souhaité : cd chemin/vers/votre/dossier 
+2- Initialiser un nouveau dépôt Git (si inexistant) : git init 
+3- On va cloner un dépôt existant : git clone https://github.com/utilisateur/repo.git
+4- On vérifier la configuration du dépôt distant avec: git remote -v
+5- On va Créer et éditer un fichier texte : 
+        * touch nom_du_fichier.txt  # Créer un nouveau fichier
+        * nano  nom_du_fichier.txt  # Ouvrir le fichier dans l'éditeur nano
+        pour sortir de l'éditeur nano: Ctrl+O et Ctrl+X
+
+6- Ajouter des fichiers à la zone de staging :
+
+
+
+
 
